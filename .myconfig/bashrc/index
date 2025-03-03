@@ -1,0 +1,11 @@
+# exports
+export EDITOR=vim
+
+
+# alias
+alias shufflebg="bash ~/.scripts/background.sh"
+
+shufflebg
+fastfetch
+source ~/.myconfig/bashrc/prompt.sh
+
