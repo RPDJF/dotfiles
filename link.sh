@@ -1,4 +1,10 @@
 #!/bin/bash
+
+echo "linkin .vimrc..."
+rm -rf $HOME/.vimrc.bak
+mv $HOME/.vimrc $HOME/.vimrc.bak
+ln -s $PWD/.vimrc $HOME/.vimrc
+
 echo "linking scripts..."
 rm -rf $HOME/.scripts.bak
 mv $HOME/.scripts $HOME/.scripts.bak
