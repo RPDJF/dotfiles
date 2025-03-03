@@ -71,7 +71,7 @@
         "tooltip": true,
         "format": " {}",
         "interval": 30,
-        "exec": "sensors | grep \"Tctl:\" | awk -F \": \" '{gsub(/^[ \t]+|[ \t]+$/, \"\", $2); print $2}'"
+        "exec": "sensors | awk '/^Package id 0:/ {print $4}'"
     },
     "custom/memory": {
         "tooltip": true,

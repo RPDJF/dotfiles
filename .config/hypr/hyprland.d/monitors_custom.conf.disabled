@@ -1,0 +1,9 @@
+################
+### MONITORS ###
+################
+
+# See https://wiki.hyprland.org/Configuring/Monitors/
+
+# configurations for my own PC (2k 165Hz and 2k 144Hz)
+monitor=DP-1,2560x1440@165,auto,1
+monitor=DP-2,2560x1440@144,auto,1
