@@ -41,5 +41,13 @@ rm -rf $HOME/.config/wofi.bak
 mv $HOME/.config/wofi $HOME/.config/wofi.bak
 ln -s $PWD/.config/wofi $HOME/.config/wofi
 
+echo "linking HubApps for edge..."
+if [ ! -e $HOME/.config/microsoft-edge/Default/HubApps ]; then
+	mkdir -p $HOME/.config/microsoft-edge/Default/
+	ln -s $PWD/.myconfig/ressources/HubApps $HOME/.config/microsoft-edge/Default/HubApps
+else
+	echo "HubApps already exists"
+fi
+
 echo "sourcing .bashrc..."
 source $HOME/.bashrc
