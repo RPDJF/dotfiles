@@ -4,6 +4,9 @@ echo "linkin .vimrc..."
 rm -rf $HOME/.vimrc.bak
 mv $HOME/.vimrc $HOME/.vimrc.bak
 ln -s $PWD/.vimrc $HOME/.vimrc
+sudo rm -rf /root/.vimrc.bak
+sudo mv /root/.vimrc /root/.vimrc.bak
+sudo ln -s $PWD/.vimrc /root/.vimrc
 
 echo "linking scripts..."
 rm -rf $HOME/.scripts.bak
