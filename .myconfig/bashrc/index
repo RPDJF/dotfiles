@@ -4,6 +4,7 @@ export EDITOR=vim
 
 # alias
 alias shufflebg="bash ~/.scripts/background.sh"
+alias waybar-reload="pkill waybar && hyprctl dispatch exec waybar"
 
 shufflebg
 fastfetch
