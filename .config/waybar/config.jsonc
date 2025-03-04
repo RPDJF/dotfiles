@@ -70,13 +70,13 @@
     "custom/temperature": {
         "tooltip": true,
         "format": " {}",
-        "interval": 30,
-        "exec": "sensors | awk '/^Package id 0:/ {print $4}'"
+        "interval": 5,
+        "exec": "awk '{printf \"%.2f°C\\n\", $1/1000}' \"$(grep -l \"coretemp\\|k10temp\" /sys/class/hwmon/hwmon*/name | sed 's/name$/temp1_input/')\""
     },
     "custom/memory": {
         "tooltip": true,
         "format": "🧠 {}",
-        "interval": 30,
+        "interval": 5,
         "exec": "free | grep \"Mem:\" | awk '{printf \"%d%%\\n\", $3/$2 * 100}'"
     },
     "tray": {
@@ -120,7 +120,8 @@
             "󰂁",
             "󰂂",
             "󰁹"
-        ]
+        ],
+		"interval": 3
     },
     "pulseaudio": {
         "format": "{icon}   {volume}%",
