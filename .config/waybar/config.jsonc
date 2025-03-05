@@ -160,7 +160,7 @@
         "tooltip-format": "{essid} - {ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+		"on-click": "nm-connection-editor"
     },
     "bluetooth": {
         "format": " {status}",
@@ -168,6 +168,7 @@
         "format-connected": " {num_connections}",
         "tooltip-format": "{device_alias}",
         "tooltip-format-connected": " {device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}"
+        "tooltip-format-enumerate-connected": "{device_alias}",
+		"on-click": "blueman-manager"
     }
 }
