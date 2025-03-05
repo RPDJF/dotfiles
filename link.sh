@@ -36,10 +36,10 @@ echo "linking waybar config files..."
 rm -rf $HOME/.config/waybar.bak
 mv $HOME/.config/waybar $HOME/.config/waybar.bak
 ln -s $PWD/.config/waybar $HOME/.config/waybar
-echo "linking wofi config files..."
-rm -rf $HOME/.config/wofi.bak
-mv $HOME/.config/wofi $HOME/.config/wofi.bak
-ln -s $PWD/.config/wofi $HOME/.config/wofi
+echo "linking rofi config files..."
+rm -rf $HOME/.config/rofi.bak
+mv $HOME/.config/rofi $HOME/.config/rofi.bak
+ln -s $PWD/.config/rofi $HOME/.config/rofi
 
 echo "linking HubApps for edge..."
 if [ ! -e $HOME/.config/microsoft-edge/Default/HubApps ]; then
