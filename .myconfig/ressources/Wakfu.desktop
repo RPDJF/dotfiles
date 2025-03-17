@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Wakfu
+Comment=MMORPG Game
+Exec=/home/ruipa/.bin/Wakfu-Setup-x86_64.AppImage
+Icon=/home/ruipa/.bin/wakfu.png
