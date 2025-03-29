@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=HDMI2USB
+Comment=View HDMI to USB ivdeo
+Exec=/home/ruipa/.scripts/hdmiplay.sh
+Icon=/home/ruipa/.bin/wakfu.png

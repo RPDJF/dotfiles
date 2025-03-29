@@ -23,6 +23,11 @@ rm -rf $HOME/.bashrc.bak
 mv $HOME/.bashrc $HOME/.bashrc.bak
 ln -s $PWD/.bashrc $HOME/.bashrc
 
+echo "linking bash_profile..."
+rm -rf $HOME/.bash_profile.bak
+mv $HOME/.bash_profile $HOME/.bash_profile.bak
+ln -s $PWD/.bash_profile $HOME/.bash_profile
+
 echo "linking Hypr config files..."
 rm -rf $HOME/.config/hypr.bak
 mv $HOME/.config/hypr $HOME/.config/hypr.bak
