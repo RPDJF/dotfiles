@@ -56,3 +56,15 @@ fi
 
 echo "sourcing .bashrc..."
 source $HOME/.bashrc
+
+echo "linking Fastfetch config files..."
+rm -rf $HOME/.config/fastfetch.bak
+mv $HOME/.config/fastfetch $HOME/.config/fastfetch.bak
+ln -s $PWD/.config/fastfetch $HOME/.config/fastfetch
+echo "linking Alacritty config files..."
+rm -rf $HOME/.config/alacritty.bak
+mv $HOME/.config/alacritty $HOME/.config/alacritty.bak
+ln -s $PWD/.config/alacritty $HOME/.config/alacritty
+rm -rf $HOME/.config/btop.bak
+mv $HOME/.config/btop $HOME/.config/btop.bak
+ln -s $PWD/.config/btop $HOME/.config/alacritty

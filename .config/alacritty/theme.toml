@@ -1,0 +1,33 @@
+[colors]
+# Primary colors
+primary.background = "#1E1E2E" # Base
+primary.foreground = "#CDD6F4" # Text
+
+# Cursor colors
+cursor.text = "#1E1E2E"       # Base
+cursor.cursor = "#F5E0DC"     # Rosewater
+
+# Selection colors
+selection.text = "#1E1E2E"    # Base
+selection.background = "#A6ADC8" # Subtext0
+
+# Normal colors
+normal.black = "#1E1E2E"      # Base
+normal.red = "#F38BA8"        # Red
+normal.green = "#A6E3A1"      # Green
+normal.yellow = "#F9E2AF"     # Yellow
+normal.blue = "#89B4FA"       # Blue
+normal.magenta = "#DDB6F2"    # Magenta
+normal.cyan = "#89DCEB"       # Cyan
+normal.white = "#CDD6F4"      # Text
+
+# Bright colors
+bright.black = "#313244"      # Surface0
+bright.red = "#F38BA8"        # Red
+bright.green = "#A6E3A1"      # Green
+bright.yellow = "#F9E2AF"     # Yellow
+bright.blue = "#89B4FA"       # Blue
+bright.magenta = "#DDB6F2"    # Magenta
+bright.cyan = "#89DCEB"       # Cyan
+bright.white = "#F5E0DC"      # Rosewater
+

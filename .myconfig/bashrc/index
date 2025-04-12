@@ -1,11 +1,11 @@
 # exports
 export EDITOR=vim
 DEBUGINFOD_URLS="https://debuginfod.archlinux.org" # for valgrind
+QT_QPA_PLATFORM="wayland" # for some compatibilities
 
 # alias
 alias shufflebg="bash ~/.scripts/background.sh"
 alias waybar-reload="pkill waybar && hyprctl dispatch exec waybar"
-alias clear="printf '\E[H\E[3J'"
 
 shufflebg
 fastfetch
