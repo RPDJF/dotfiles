@@ -10,3 +10,5 @@ fi
 echo linking wakfu desktop file
 ln -s $PWD/.myconfig/ressources/Wakfu.desktop $HOME/.local/share/applications/Wakfu.desktop
 ln -s $PWD/.myconfig/ressources/wakfu.png $HOME/.bin/wakfu.png
+echo installing sddm with theme
+(echo 1 && echo 4) | sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"

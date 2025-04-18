@@ -65,6 +65,7 @@ echo "linking Alacritty config files..."
 rm -rf $HOME/.config/alacritty.bak
 mv $HOME/.config/alacritty $HOME/.config/alacritty.bak
 ln -s $PWD/.config/alacritty $HOME/.config/alacritty
+echo "linking Btop config files..."
 rm -rf $HOME/.config/btop.bak
 mv $HOME/.config/btop $HOME/.config/btop.bak
 ln -s $PWD/.config/btop $HOME/.config/alacritty
