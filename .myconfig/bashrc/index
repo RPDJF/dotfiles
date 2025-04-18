@@ -6,6 +6,8 @@ QT_QPA_PLATFORM="wayland" # for some compatibilities
 # alias
 alias shufflebg="bash ~/.scripts/background.sh"
 alias waybar-reload="pkill waybar && hyprctl dispatch exec waybar"
+alias vpn-on="sudo wg-quick up wg-client"
+alias vpn-off="sudo wg-quick down wg-client"
 
 shufflebg
 fastfetch
