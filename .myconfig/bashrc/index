@@ -1,7 +1,10 @@
+shufflebg
+fastfetch
+
 # exports
 export EDITOR=vim
-DEBUGINFOD_URLS="https://debuginfod.archlinux.org" # for valgrind
-QT_QPA_PLATFORM="wayland" # for some compatibilities
+export DEBUGINFOD_URLS="https://debuginfod.archlinux.org" # for valgrind
+export QT_QPA_PLATFORM="wayland" # for some compatibilities
 
 # alias
 alias shufflebg="bash ~/.scripts/background.sh"
@@ -9,11 +12,9 @@ alias waybar-reload="pkill waybar && hyprctl dispatch exec waybar"
 alias vpn-on="sudo wg-quick up wg-client"
 alias vpn-off="sudo wg-quick down wg-client"
 alias echo="echo -e"
+alias confedit="code .dotfiles/"
 
 # source
-source ~/.nvm/nvm.sh
-
-shufflebg
-fastfetch
+source ~/.nvm/nvm.sh 2>/dev/null
 source ~/.myconfig/bashrc/prompt.sh
 
