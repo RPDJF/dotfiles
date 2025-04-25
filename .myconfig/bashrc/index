@@ -12,7 +12,7 @@ alias waybar-reload="pkill waybar && hyprctl dispatch exec waybar"
 alias vpn-on="sudo wg-quick up wg-client"
 alias vpn-off="sudo wg-quick down wg-client"
 alias echo="echo -e"
-alias confedit="code .dotfiles/"
+alias confedit="code ~/.dotfiles/"
 
 # source
 source ~/.nvm/nvm.sh 2>/dev/null
