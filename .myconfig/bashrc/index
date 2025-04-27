@@ -1,6 +1,3 @@
-shufflebg
-fastfetch
-
 # exports
 export EDITOR=vim
 export DEBUGINFOD_URLS="https://debuginfod.archlinux.org" # for valgrind
@@ -13,6 +10,9 @@ alias vpn-on="sudo wg-quick up wg-client"
 alias vpn-off="sudo wg-quick down wg-client"
 alias echo="echo -e"
 alias confedit="code ~/.dotfiles/"
+
+fastfetch
+shufflebg
 
 # source
 source ~/.nvm/nvm.sh 2>/dev/null
