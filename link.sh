@@ -54,6 +54,11 @@ else
 	echo "HubApps already exists"
 fi
 
+echo "electron-flags..."
+rm -rf $HOME/.config/electron-flags.conf.bak
+mv $HOME/.config/electron-flags.conf $HOME/.config/electron-flags.conf.bak
+ln -s $PWD/.config/electron-flags.conf $HOME/.config/electron-flags.conf
+
 echo "sourcing .bashrc..."
 source $HOME/.bashrc
 
