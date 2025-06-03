@@ -15,6 +15,6 @@ fastfetch
 shufflebg
 
 # source
-source ~/.nvm/nvm.sh 2>/dev/null
+source ~/.nvm/nvm.sh 2>/dev/null || source /usr/share/nvm/init-nvm.sh 2>/dev/null || true
 source ~/.myconfig/bashrc/prompt.sh
 
